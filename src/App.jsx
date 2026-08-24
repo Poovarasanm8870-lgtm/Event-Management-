@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { EventProvider, useEvents } from './context/EventContext';
 import { CustomCursor } from './components/common/CustomCursor';
 import { Navbar } from './components/common/Navbar';
