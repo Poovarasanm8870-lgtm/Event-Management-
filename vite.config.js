@@ -11,4 +11,13 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
+  build: {
+    rollupOptions: {
+      output: {
+        entryFileNames: 'assets/[name]-arasan-v3.js',
+        chunkFileNames: 'assets/[name]-arasan-v3.js',
+        assetFileNames: 'assets/[name]-arasan-v3.[ext]'
+      }
+    }
+  }
 })
