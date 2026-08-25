@@ -105,7 +105,7 @@ export const TicketModal = ({ registration, isOpen, onClose }) => {
                 <div className="p-3.5 rounded-2xl bg-slate-50 border border-slate-200/80">
                   <span className="text-slate-500 block text-[10px] uppercase font-bold mb-1">Amount Paid</span>
                   <span className="font-bold text-slate-900 text-sm">
-                    ${registration.totalPaid}
+                    ₹{registration.totalPaid}
                   </span>
                 </div>
               </div>

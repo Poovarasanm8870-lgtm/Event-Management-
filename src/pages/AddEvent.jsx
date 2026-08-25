@@ -196,7 +196,7 @@ export const AddEvent = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
               <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">
-                Ticket Price ($)
+                Ticket Price (₹)
               </label>
               <input
                 type="number"

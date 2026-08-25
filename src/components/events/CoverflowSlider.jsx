@@ -61,7 +61,7 @@ export const CoverflowSlider = ({ events, onRegisterClick }) => {
                     {event.category}
                   </span>
                   <span className="px-4 py-1.5 rounded-full text-sm font-extrabold bg-slate-900 text-white shadow-md">
-                    ${event.price}
+                    ₹{event.price}
                   </span>
                 </div>
 

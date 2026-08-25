@@ -194,10 +194,10 @@ export const RegistrationModal = ({ event, isOpen, onClose, onSuccessRegistratio
             <div className="p-4 rounded-2xl bg-violet-50/80 border border-violet-200 flex items-center justify-between">
               <div>
                 <span className="text-xs text-slate-500 block font-medium">Total Investment</span>
-                <span className="text-xs text-violet-700 font-bold">${event.price} × {ticketsCount} Pass</span>
+                <span className="text-xs text-violet-700 font-bold">₹{event.price} × {ticketsCount} Pass</span>
               </div>
               <span className="text-2xl font-extrabold font-display text-slate-900">
-                ${totalPrice}
+                ₹{totalPrice}
               </span>
             </div>
 
@@ -215,7 +215,7 @@ export const RegistrationModal = ({ event, isOpen, onClose, onSuccessRegistratio
               ) : (
                 <span className="flex items-center gap-2">
                   <CheckCircle2 className="w-5 h-5 text-white" />
-                  <span>Confirm Registration (${totalPrice})</span>
+                  <span>Confirm Registration (₹{totalPrice})</span>
                 </span>
               )}
             </button>

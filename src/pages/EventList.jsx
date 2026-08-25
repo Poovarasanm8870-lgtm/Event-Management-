@@ -274,7 +274,7 @@ export const EventList = () => {
               <div className="flex items-center gap-6 w-full md:w-auto justify-between md:justify-end border-t md:border-t-0 border-slate-100 pt-4 md:pt-0">
                 <div className="text-right">
                   <span className="text-xs text-slate-500 font-medium block">Pass Price</span>
-                  <span className="text-xl font-extrabold text-slate-900">${event.price}</span>
+                  <span className="text-xl font-extrabold text-slate-900">₹{event.price}</span>
                 </div>
 
                 <button

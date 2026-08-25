@@ -114,11 +114,11 @@ export const EventDetails = () => {
           <div className="absolute bottom-6 left-6 right-6 z-10 space-y-3">
             <div className="flex items-center gap-3">
               <span className="px-3 py-1 rounded-full text-xs font-extrabold bg-slate-900 text-white shadow-xs">
-                ${event.price} / Pass
+                ₹{event.price} / Pass
               </span>
               <span className="text-xs text-slate-200 flex items-center gap-1 font-medium">
                 <Building2 className="w-3.5 h-3.5 text-violet-300" />
-                Hosted by {event.organizer || 'AURA VIP'}
+                Hosted by {event.organizer || 'ARASAN VIP'}
               </span>
             </div>
 
@@ -218,7 +218,7 @@ export const EventDetails = () => {
               <div className="flex items-center justify-between border-b border-slate-100 pb-4">
                 <div>
                   <span className="text-xs text-slate-500 font-medium block">Single VIP Pass</span>
-                  <span className="text-3xl font-extrabold font-display text-slate-900">${event.price}</span>
+                  <span className="text-3xl font-extrabold font-display text-slate-900">₹{event.price}</span>
                 </div>
                 <span className="px-3 py-1 rounded-full text-xs font-bold bg-emerald-50 text-emerald-700 border border-emerald-200">
                   Instant Confirmation

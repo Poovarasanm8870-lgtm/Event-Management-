@@ -45,7 +45,7 @@ export const Navbar = () => {
           </div>
           <div>
             <span className="text-2xl font-display font-extrabold tracking-wider bg-gradient-to-r from-slate-900 via-slate-800 to-violet-900 bg-clip-text text-transparent">
-              AURA
+              ARASAN
             </span>
             <span className="block text-[10px] uppercase tracking-widest text-violet-600 font-bold -mt-1">
               Events Studio

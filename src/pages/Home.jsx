@@ -187,7 +187,7 @@ export const Home = () => {
               ORGANIZER STUDIO
             </span>
             <h2 className="text-3xl sm:text-5xl font-extrabold font-display text-white">
-              Host Your Next Flagship Event With AURA
+              Host Your Next Flagship Event With ARASAN
             </h2>
             <p className="text-sm text-slate-300 leading-relaxed font-normal">
               Launch events in seconds with instant capacity management, form validations, ticket wallets, and real-time LocalStorage tracking.

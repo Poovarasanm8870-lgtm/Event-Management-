@@ -81,7 +81,7 @@ export const EventCard = ({ event, onRegisterClick, onDeleteClick }) => {
               {event.category}
             </span>
             <span className="px-3 py-1 rounded-full text-xs font-extrabold bg-slate-900/90 text-white backdrop-blur-md border border-slate-800 shadow-xs">
-              ${event.price}
+              ₹{event.price}
             </span>
           </div>
 

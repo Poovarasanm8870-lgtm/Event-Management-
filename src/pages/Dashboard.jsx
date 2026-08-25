@@ -117,7 +117,7 @@ export const Dashboard = () => {
               <DollarSign className="w-5 h-5" />
             </div>
           </div>
-          <div className="text-3xl font-extrabold text-slate-900 mt-4 font-display">${totalRevenue}</div>
+          <div className="text-3xl font-extrabold text-slate-900 mt-4 font-display">₹{totalRevenue}</div>
           <span className="text-[11px] text-amber-700 font-bold flex items-center gap-1 mt-1">
             Calculated from bookings
           </span>
@@ -176,7 +176,7 @@ export const Dashboard = () => {
                     </div>
                   </div>
                   <div className="text-right">
-                    <span className="font-bold text-emerald-700 block">${reg.totalPaid}</span>
+                    <span className="font-bold text-emerald-700 block">₹{reg.totalPaid}</span>
                     <span className="text-[10px] text-slate-500 font-medium">{reg.ticketsCount} Ticket(s)</span>
                   </div>
                 </div>
@@ -228,7 +228,7 @@ export const Dashboard = () => {
                       {evt.availableSeats} / {evt.totalSeats}
                     </span>
                   </td>
-                  <td className="p-4 font-bold text-slate-900">${evt.price}</td>
+                  <td className="p-4 font-bold text-slate-900">₹{evt.price}</td>
                   <td className="p-4 text-right">
                     <div className="flex items-center justify-end gap-2">
                       <Link

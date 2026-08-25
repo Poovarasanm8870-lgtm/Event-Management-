@@ -3,8 +3,8 @@ import { INITIAL_EVENTS } from '../data/seedEvents';
 
 const EventContext = createContext();
 
-const LOCAL_STORAGE_EVENTS_KEY = 'aura_events_v2';
-const LOCAL_STORAGE_REGISTRATIONS_KEY = 'aura_registrations_v2';
+const LOCAL_STORAGE_EVENTS_KEY = 'arasan_events_v3';
+const LOCAL_STORAGE_REGISTRATIONS_KEY = 'arasan_registrations_v3';
 
 export const EventProvider = ({ children }) => {
   const [events, setEvents] = useState(() => {

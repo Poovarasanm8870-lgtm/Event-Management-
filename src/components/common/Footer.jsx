@@ -21,7 +21,7 @@ export const Footer = () => {
                 </div>
               </div>
               <span className="text-xl font-display font-extrabold tracking-wider text-slate-900">
-                AURA
+                ARASAN
               </span>
             </Link>
             <p className="text-xs text-slate-600 leading-relaxed">
@@ -88,7 +88,7 @@ export const Footer = () => {
             <ShieldCheck className="w-4 h-4 text-violet-600" />
             <span>100% Client-Side LocalStorage Powered • No Backend Required</span>
           </div>
-          <p>© 2026 AURA Event Management System. Crafted with React, Vite & Framer Motion.</p>
+          <p>© 2026 ARASAN Event Management System. Crafted with React, Vite & Framer Motion.</p>
         </div>
       </div>
     </footer>
